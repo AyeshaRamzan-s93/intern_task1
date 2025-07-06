@@ -17,7 +17,7 @@ body {
   height: 100%;
   padding: 0 20px;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0, 0.8); 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-left img {
