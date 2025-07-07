@@ -149,62 +149,72 @@ body {
 
 /* Mobile Responsivness of navbar and homepage */
 
-@media (max-width: 992px) {
+
+@media (max-width: 768px) {
+
+  /* Navbar adjustments */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .navbar-left img {
+    height: 50px; 
   }
 
   .navbar-center ul {
     flex-direction: column;
-    gap: 20px;
-    padding: 20px 0 0 0;
+    gap: 15px;
+    padding-left: 0;
+    margin: 15px 0;
   }
 
   .navbar-btn {
+    align-self: center;
     margin-top: 10px;
+    width: 100%;
+    text-align: center;
   }
 
+  /* HomePage adjustments */
   .homePage {
     flex-direction: column;
+    height: auto;
     padding: 40px 20px;
   }
 
   .homeleft {
-    padding: 0;
-    margin-bottom: 40px;
+    padding-left: 0;
     text-align: center;
   }
 
   .homeleft h2 {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .homeleft p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .homebtn {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
   .homeright {
     justify-content: center;
+    margin-top: 30px;
   }
 
   .homeright img {
     width: 100%;
+    max-width: 100%;
     height: auto;
   }
-}
 
-@media (max-width: 600px) {
-  .homeleft h2 {
-    font-size: 36px;
-    line-height: 44px;
-  }
-
-  .navbar-center ul {
-    align-items: flex-start;
-  }
-
-  .navbar-btn {
-    width: 100%;
-    text-align: center;
-  }
 }
 
 
